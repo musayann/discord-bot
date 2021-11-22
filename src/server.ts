@@ -3,7 +3,7 @@ import morgan from 'morgan';
 import helmet from 'helmet';
 import cors from 'cors';
 import { getFilesWithKeyword } from './utils/getFilesWithKeyword';
-import DiscordClient from './client';
+// import DiscordClient from './client';
 
 const app: Express = express();
 
@@ -36,10 +36,10 @@ getFilesWithKeyword('router', __dirname + '/app').forEach((file: string) => {
 });
 
 
-app.use('/discord-bot/status', (req, res)=> {
-  console.log(DiscordClient);
-  res.send(DiscordClient);
-});
+// app.use('/discord-bot/status', (req, res)=> {
+//   console.log(DiscordClient);
+//   res.send(DiscordClient);
+// });
 /************************************************************************************
  *                               Express Error Handling
  ***********************************************************************************/
