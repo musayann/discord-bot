@@ -11,6 +11,9 @@
     "dev:nodemon": "nodemon -w src -e ts,json -x ts-node ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "16"
+  },
   "keywords": [
     "express",
     "typescript"
