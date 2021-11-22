@@ -31,6 +31,7 @@ if (process.env.NODE_ENV === 'production') {
  ***********************************************************************************/
 
 getFilesWithKeyword('router', __dirname + '/app').forEach((file: string) => {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
   const { router } = require(file);
   app.use('/', router);
 });
