@@ -2,7 +2,7 @@
   "name": "discord-bot",
   "version": "0.0.1",
   "description": "discord-bot initialised with create-express-typescript-application.",
-  "main": "src/index.ts",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node ./build/src/index.js",
