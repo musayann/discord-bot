@@ -2,8 +2,6 @@ import * as Dotenv from "dotenv";
 
 Dotenv.config();
 
-console.log(process.env.DISCORD_BOT_TOKEN);
-
 import app from './server';
 
 // Start the application by listening to specific port

@@ -2,10 +2,10 @@
   "name": "discord-bot",
   "version": "0.0.1",
   "description": "discord-bot initialised with create-express-typescript-application.",
-  "main": "build/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "build": "tsc",
-    "start": "node ./build/src/index.js",
+    "start": "node ./build/index.js",
     "dev": "ts-node ./src/index.ts",
     "dev:nodemon": "nodemon -w src -e ts,json -x ts-node ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
